@@ -1,3 +1,9 @@
+.container {
+    margin: 1em;
+}
+
+/* Navigation */
+
 ul {
     display: flex;
     justify-content: right;
@@ -16,6 +22,8 @@ a {
     color: #0000FF;
 }
 
+/* First Section with logo */
+
 .flexHead {
     display: flex;
     align-items: center;
@@ -24,4 +32,12 @@ a {
 .logo {
     width: 10em;
     height: auto;
+}
+
+/* Second Section */
+
+.pinkBox {
+    color: black;
+    background-color: #EDD3E5;
+    padding: 0.1em;
 }
