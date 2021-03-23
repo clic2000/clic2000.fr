@@ -2,6 +2,10 @@
     margin: 1em;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 /* Navigation */
 
 ul {
@@ -41,4 +45,25 @@ a {
     background-color: #EDD3E5;
     padding: 0.1em;
     font-size: .9rem;
+    font-weight: 200;
 }
+
+.bigText {
+    font-size: 1.25rem;
+}
+
+/*Services section*/
+
+.smallTitle {
+    background-color: #EDD3E5;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-bottom: -.8em;
+    width: 8em;
+}
+
+.whiteBox {
+    font-weight: 200;
+} 
