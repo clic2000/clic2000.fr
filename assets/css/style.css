@@ -8,7 +8,7 @@ body {
 
 /* Navigation */
 
-ul {
+.flexNav {
     display: flex;
     justify-content: right;
 }
@@ -66,4 +66,25 @@ a {
 
 .whiteBox {
     font-weight: 200;
-} 
+}
+
+/* Softwares section */
+
+.paragraphLogiciel {
+    margin-bottom: 0.3em;
+}
+
+.flexLogiciels {
+    display: flex;
+}
+
+.flexLogiciels ul {
+    padding-left: 0.3em;
+    background-color: #EDD3E5;
+    margin: 0 0.2em;
+}
+
+.flexLogiciels li {
+    list-style-type: none;
+    font-weight: 200;
+}
