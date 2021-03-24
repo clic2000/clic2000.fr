@@ -108,6 +108,11 @@ footer {
     font-weight: 200;
 }
 
+.clic {
+    font-style: italic;
+    font-weight: 100;
+}
+
 /* Contact */
 .flexButton {
     display: flex;
@@ -129,3 +134,6 @@ footer {
     text-align: right;
 }
 
+.buttonContact:hover {
+    cursor: pointer;
+}
