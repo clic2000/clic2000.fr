@@ -1,5 +1,12 @@
 .container {
-    margin: 1em;
+    margin:0 1em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
 }
 
 body {
@@ -100,3 +107,25 @@ footer {
     margin-top: 3em;
     font-weight: 200;
 }
+
+/* Contact */
+.flexButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContact {
+    margin-top: 0.3em;
+    border-top: 1px solid #0000FF;
+    border-left: 1px solid #0000FF;
+    border-right: 1px solid #0000FF;
+    border-radius: 3px;
+    border-bottom: none;
+    margin-bottom: 0;
+    color: #0000FF;
+    padding-right: 3em;
+    background-color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
