@@ -81,10 +81,17 @@ a {
 .flexLogiciels ul {
     padding-left: 0.3em;
     background-color: #EDD3E5;
-    margin: 0 0.2em;
+    margin: 0 0.2em 0 0;
 }
 
 .flexLogiciels li {
     list-style-type: none;
     font-weight: 200;
+}
+.secondItem {
+    padding-right: 0.6em;
+}
+
+.lastItem {
+    padding-right: 0.8em;
 }
