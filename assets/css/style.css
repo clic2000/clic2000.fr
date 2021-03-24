@@ -95,3 +95,8 @@ a {
 .lastItem {
     padding-right: 0.8em;
 }
+
+footer {
+    margin-top: 3em;
+    font-weight: 200;
+}
