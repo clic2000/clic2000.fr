@@ -169,3 +169,17 @@ footer {
 .bigText {
     font-size: 1.7em;
 }
+
+.secondFlexBox {
+    display: flex;
+    width: 67%;
+}
+
+.infogerance {
+    flex-basis: 50%;
+}
+
+.sites {
+    flex-basis: 50%;
+    margin-right: 0.3em;
+}
