@@ -134,3 +134,13 @@ footer {
 .buttonContact:hover {
     cursor: pointer;
 }
+
+/* Desktop */
+
+@media (min-width: 768px) { 
+
+.logo {
+    width: 20em;
+}
+
+}
