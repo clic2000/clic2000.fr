@@ -135,12 +135,19 @@ footer {
     cursor: pointer;
 }
 
-/* Desktop */
+/* Tablet */
 
 @media (min-width: 768px) { 
 
 .logo {
-    width: 20em;
+    width: 14em;
 }
 
+.flexHead {
+    align-items: end;
+}
+
+.flexHead > p {
+    font-size: 1.6em;
+}
 }
