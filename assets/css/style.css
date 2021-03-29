@@ -139,6 +139,10 @@ footer {
 
 @media (min-width: 768px) { 
 
+.flexNav {
+    font-size: 1.3em;
+} 
+
 .logo {
     width: 14em;
 }
@@ -148,6 +152,16 @@ footer {
 }
 
 .flexHead > p {
-    font-size: 1.6em;
+    font-size: 2.1em;
 }
+
+.firstFlexBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.firstBox {
+    width: 68%;
+    font-size: 1em;
+    padding-right: 0.5em;
 }
