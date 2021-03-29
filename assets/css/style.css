@@ -144,67 +144,142 @@ footer > p {
 
 @media (min-width: 768px) { 
 
-.flexNav {
-    font-size: 1.3em;
-} 
+    .flexNav {
+	font-size: 1.3em;
+    } 
 
-.logo {
-    width: 14em;
+    .logo {
+	width: 14em;
+    }
+
+    .flexHead {
+	align-items: end;
+    }
+
+    .flexHead > p {
+	font-size: 2.1em;
+    }
+
+    .firstFlexBox {
+	display: flex;
+	justify-content: flex-end;
+    }
+
+    .firstBox {
+	width: 68%;
+	font-size: 1em;
+	padding-right: 0.5em;
+    }
+
+    .bigText {
+	font-size: 1.7em;
+    }
+
+    .secondFlexBox {
+	display: flex;
+	width: 67%;
+    }
+
+    .infogerance {
+	flex-basis: 50%;
+    }
+
+    .sites {
+	flex-basis: 50%;
+	margin-right: 0.3em;
+    }
+
+    .thirdFlexBox {
+	display: flex;
+	justify-content: flex-end;
+    }
+
+    .thirdBox {
+	width: 68%;
+	font-size: 1em;
+	padding-right: 0.5em;
+    }
+
+    .logiciels {
+	width: 47%;
+    }
+
+    .buttonContact {
+	font-size: 1.7em;
+    }
 }
 
-.flexHead {
-    align-items: end;
+/* Desktop */
+@media (min-width: 1024px) {
+
+     .flexNav {
+	font-size: 1.5em;
+    } 
+
+    .logo {
+	width: 22em;
+    }
+
+    .flexHead {
+	margin-top: -4em;
+	align-items: end;
+    }
+
+    .flexHead > p {
+	font-size: 3.2em;
+	line-height: 1em;
+	margin-bottom: 0.8em;
+    }
+
+    .firstFlexBox {
+	display: flex;
+	justify-content: flex-end;
+    }
+
+    .firstBox {
+	width: 68%;
+	font-size: 1.7rem;
+	padding-right: 0.5em;
+    }
+
+    .bigText {
+	font-size: 2.5rem;
+    }
+
+    .secondFlexBox {
+	display: flex;
+	width: 60%;
+	font-size: 1.7rem;
+    }
+
+    .smallTitle {
+	font-size: 1.7rem;
+    }
+
+    .sites {
+	margin-right: 0.6em;
+    }
+
+    .thirdBox {
+	width: 68%;
+	font-size: 1.7rem;
+	padding-right: 0.5em;
+    }
+
+    .logiciels {
+	font-size: 1.7rem;
+    }
+
+    .flexLogiciels {
+	width: 88%;
+    }
+
+    .buttonContact {
+	font-size: 2rem;
+	padding-right: 6em;
+    }
+
+    footer {
+	font-size: 1.7rem;
 }
 
-.flexHead > p {
-    font-size: 2.1em;
-}
-
-.firstFlexBox {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.firstBox {
-    width: 68%;
-    font-size: 1em;
-    padding-right: 0.5em;
-}
-
-.bigText {
-    font-size: 1.7em;
-}
-
-.secondFlexBox {
-    display: flex;
-    width: 67%;
-}
-
-.infogerance {
-    flex-basis: 50%;
-}
-
-.sites {
-    flex-basis: 50%;
-    margin-right: 0.3em;
-}
-
-.thirdFlexBox {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.thirdBox {
-    width: 68%;
-    font-size: 1em;
-    padding-right: 0.5em;
-}
-
-.logiciels {
-    width: 47%;
-}
-
-.buttonContact {
-    font-size: 1.7em;
-}
-}
