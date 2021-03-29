@@ -183,3 +183,15 @@ footer {
     flex-basis: 50%;
     margin-right: 0.3em;
 }
+
+.thirdFlexBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thirdBox {
+    width: 68%;
+    font-size: 1em;
+    padding-right: 0.5em;
+}
+}
