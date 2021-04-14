@@ -1,3 +1,7 @@
+.clic-title {
+    display: none;
+}
+
 .container {
     margin: 0 1em;
     display: flex;
