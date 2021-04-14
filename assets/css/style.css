@@ -121,10 +121,12 @@ footer > p {
 }
 
 .buttonContact {
+    position: fixed;
+    bottom: -4px;
     margin-top: 0.3em;
-    border-top: 1px solid #0000FF;
-    border-left: 1px solid #0000FF;
-    border-right: 1px solid #0000FF;
+    border-top: 2px solid #0000FF;
+    border-left: 2px solid #0000FF;
+    border-right: 2px solid #0000FF;
     border-radius: 3px;
     border-bottom: none;
     margin-bottom: 0;
@@ -275,7 +277,6 @@ footer > p {
     }
 
     .buttonContact {
-	font-size: 2rem;
 	padding-right: 6em;
     }
 
@@ -304,6 +305,6 @@ footer > p {
     }
     
     .flexLogiciels {
-	width: 95%;
+	width: 92%;
     }
 }
