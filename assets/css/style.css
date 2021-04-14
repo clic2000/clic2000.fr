@@ -41,7 +41,7 @@ a {
 }
 
 .logo {
-    width: 10em;
+    width: 12em;
     height: auto;
 }
 
@@ -213,11 +213,11 @@ footer > p {
 @media (min-width: 1024px) {
 
      .flexNav {
-	font-size: 1.5em;
+	font-size: 2.4em;
     } 
 
     .logo {
-	width: 22em;
+	width: 27em;
     }
 
     .flexHead {
