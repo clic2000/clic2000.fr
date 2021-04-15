@@ -17,6 +17,15 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+a {
+    color: #0000FF;
+    font-weight: normal;
+}
+
+a:visited {
+    color: #0000FF;
+}
+
 /* Navigation */
 
 .flexNav {
@@ -48,6 +57,45 @@ body {
 .logo {
     width: 12em;
     height: auto;
+}
+
+/* Références */
+
+.head-ref > h1{
+    font-weight: normal;
+}
+
+.head-ref {
+    font-size: 1.2em;
+}
+
+.items-ref {
+    background-color: #EDD3E5;
+    padding: 8px;
+    margin-top: 0.5em;
+}
+
+.items-ref h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.items-ref p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 200;
+}
+
+.links-ref {
+    margin-top: 0;
+}
+
+.ref-flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Second Section */
@@ -218,6 +266,16 @@ footer > p {
 
 /* Desktop */
 @media (min-width: 1024px) {
+
+    .ref-left {
+	width: 59%;
+    }
+
+    .ref-right {
+	width: 35%;
+	padding:0 2em;
+	font-weight: 200;
+    }
 
      .flexNav {
 	font-size: 2.4em;
