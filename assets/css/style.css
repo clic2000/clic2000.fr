@@ -25,16 +25,17 @@ body {
 }
 
 .itemMenu {
-    border: 1px solid #0000FF;
+    border: 2px solid #0000FF;
     border-radius: 3px;
     margin-right: 0.3em;
     width: 7em;
-    list-style-type: none;
+    color: #0000FF;
+    text-align: left;
+    padding-left: 1px;
 }
 
-a {
-    text-decoration: none;
-    color: #0000FF;
+.itemMenu:hover {
+    cursor: pointer;
 }
 
 /* First Section with logo */
@@ -127,6 +128,7 @@ footer > p {
 .buttonContact {
     position: fixed;
     bottom: -2px;
+    right: 20px;
     margin-top: 0.3em;
     border-top: 2px solid #0000FF;
     border-left: 2px solid #0000FF;
@@ -135,7 +137,6 @@ footer > p {
     border-bottom: none;
     margin-bottom: 0;
     color: #0000FF;
-    padding-right: 3em;
     padding-left: 0.1em;
     background-color: white;
     text-decoration: none;
@@ -310,5 +311,9 @@ footer > p {
     
     .flexLogiciels {
 	width: 92%;
+    }
+
+    .buttonContact {
+	right: 10%;
     }
 }
