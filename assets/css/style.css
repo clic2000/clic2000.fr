@@ -43,10 +43,15 @@ a:visited {
     background-color: white;
     text-align: left;
     padding-left: 1px;
+    font-size: 1.4em;
 }
 
 .itemMenu:hover {
     cursor: pointer;
+}
+
+.buttonContact {
+    font-size: 1.6em;
 }
 
 /* First Section with logo */
@@ -276,6 +281,10 @@ footer > p {
 
 /* Desktop */
 @media (min-width: 1024px) {
+    .itemMenu {
+	font-size: 1em;
+    }
+
     .ref-flex {
 	flex-direction: row;
     }
