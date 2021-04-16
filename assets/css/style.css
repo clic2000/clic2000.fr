@@ -99,6 +99,12 @@ a:visited {
     flex-wrap: wrap;
 }
 
+.ref-right {
+    font-weight: 200;
+    padding: 8px;
+}
+
+
 /* Second Section */
 
 .pinkBox {
@@ -275,7 +281,6 @@ footer > p {
     .ref-right {
 	width: 35%;
 	padding:0 2em;
-	font-weight: 200;
     }
 
      .flexNav {
