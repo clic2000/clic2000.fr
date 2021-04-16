@@ -68,6 +68,7 @@ a:visited {
 
 .head-ref {
     font-size: 1.2em;
+    padding-left: 8px;
 }
 
 .items-ref {
@@ -97,6 +98,7 @@ a:visited {
 .ref-flex {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
 
 .ref-right {
@@ -273,6 +275,13 @@ footer > p {
 
 /* Desktop */
 @media (min-width: 1024px) {
+    .ref-flex {
+	flex-direction: row;
+    }
+    
+    .head-ref {
+	padding-left: 0;
+    }
 
     .ref-left {
 	width: 59%;
