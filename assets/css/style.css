@@ -171,6 +171,7 @@ a:visited {
 footer {
     margin-top: 3em;
     font-weight: 200;
+    margin-bottom: 1.1em;
 }
 
 footer > p {
@@ -276,6 +277,10 @@ footer > p {
 
     .buttonContact {
 	font-size: 1.7em;
+    }
+
+    footer {
+	margin-bottom: 0;
     }
 }
 
