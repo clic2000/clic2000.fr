@@ -112,6 +112,25 @@ a:visited {
     padding: 8px;
 }
 
+.pages-ref-flex {
+    display: flex;
+    margin-top: 1em;
+}
+
+.previous {
+    text-align: left;
+    flex: 0 0 33.3333333333%;
+}
+
+.pages {
+    text-align: center;
+    flex: 0 0 33.3333333333%;
+}
+
+.next {
+    text-align: right;
+    flex: 0 0 33.3333333333%;
+}
 
 /* Second Section */
 
