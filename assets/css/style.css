@@ -1,3 +1,13 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .clic-title {
     display: none;
 }
@@ -276,6 +286,17 @@ footer > p {
 .buttonContact:hover {
     cursor: pointer;
 }
+
+/* Blog */
+
+.head-blog > h1{
+    font-weight: normal;
+}
+
+.head-blog {
+    font-size: 1.2em;
+}
+
 
 /* Tablet */
 
