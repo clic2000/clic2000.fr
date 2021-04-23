@@ -27,6 +27,26 @@ a:visited {
     color: #0000FF;
 }
 
+h3 {
+    font-size: 1.4em;
+    font-weight: 200;
+}
+
+li {
+    list-style-type: circle;
+}
+
+em { 
+    font-weight: 200;
+}
+
+/* Mentions légales */
+
+.legals {
+    font-weight: 200;
+}
+
+
 /* Navigation */
 
 .flexNav {
