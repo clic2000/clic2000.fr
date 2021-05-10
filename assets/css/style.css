@@ -307,8 +307,8 @@ footer > p {
 /* Tablet */
 
 @media (min-width: 768px) { 
-   
-   .contact-container {
+
+   .contact-container, .legals {
 	 width: 46%;
     }
 
