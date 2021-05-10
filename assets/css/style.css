@@ -375,6 +375,9 @@ footer > p {
     .buttonContact {
 	font-size: 1.7em;
     }
+    .ref-flex {
+	font-size: 1.3rem;
+    }
 
     footer {
 	margin-bottom: 0;
