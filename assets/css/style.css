@@ -233,10 +233,10 @@ label {
 
 .flexLogiciels {
     display: flex;
-    justify-content: space-between;
 }
 
 .flexLogiciels ul {
+    margin-right: 5px;
     padding-left: 0;
     background-color: #EDD3E5;
 }
