@@ -158,10 +158,11 @@ em {
 
 .head-contact > h1{
     font-weight: normal;
+    font-size: 2em;
 }
 
 .head-contact {
-    font-size: 1.2em;
+    font-size: 1.3rem;
     padding-left: 8px;
 }
 .head-ref > h1{
