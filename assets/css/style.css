@@ -46,9 +46,9 @@ em {
   font-weight: 200;
 }
 
-.legals > h2 {
+.legals > div > h2 {
   font-size: 1.4em;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 /* Navigation */
@@ -310,10 +310,22 @@ footer > p {
 /* Tablet */
 
 @media (min-width: 768px) {
-  .contact-container,
-  .legals {
+  .contact-container {
     width: 46%;
   }
+
+  .legals {
+      display: flex;
+    }
+
+   .legals-left {
+       width: 45%;
+       margin-right: 2%;
+    }
+
+    .legals-right {
+	width: 45%;
+    }
 
   .flexNav {
     font-size: 1.3em;
