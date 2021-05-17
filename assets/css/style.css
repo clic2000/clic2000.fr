@@ -29,7 +29,7 @@ a:visited {
 
 h3 {
   font-size: 1.4em;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 li {
@@ -37,7 +37,7 @@ li {
 }
 
 em {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /* Mentions légales */
@@ -48,7 +48,7 @@ em {
 
 .legals > h2 {
   font-size: 1.4em;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /* Navigation */
@@ -120,7 +120,7 @@ em {
 .items-ref p {
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .links-ref {
@@ -134,7 +134,7 @@ em {
 }
 
 .ref-right {
-  font-weight: 200;
+  font-weight: 300;
   padding: 8px;
 }
 
@@ -218,7 +218,7 @@ label {
 .smallTitle {
   background-color: #edd3e5;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 300;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   margin-bottom: -0.8em;
