@@ -1,136 +1,524 @@
+.clic-title {
+  display: none;
+}
+
 .container {
-    margin:0 1em;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .mainContent {
-    flex: 1;
+  flex: 1;
+  margin-top: 0.5em;
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: #0000ff;
+  font-weight: normal;
+}
+
+a:visited {
+  color: #0000ff;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+li {
+  list-style-type: circle;
+}
+
+em {
+  font-weight: 300;
+}
+
+/* Mentions légales */
+
+.legals {
+  font-weight: 200;
+  font-size: 1.3em;
+}
+
+.legals > div > h2 {
+  font-size: 1.4em;
+  font-weight: 200;
 }
 
 /* Navigation */
 
 .flexNav {
-    display: flex;
-    justify-content: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .itemMenu {
-    border: 1px solid #0000FF;
-    border-radius: 3px;
-    margin-right: 0.3em;
-    width: 7em;
-    list-style-type: none;
+  border: 2px solid #0000ff;
+  border-radius: 3px;
+  margin-right: 0.3em;
+  margin-top: 0.3em;
+  width: 7em;
+  color: #0000ff;
+  background-color: white;
+  text-align: left;
+  padding-left: 1px;
+  font-size: 1.4em;
 }
 
-a {
-    text-decoration: none;
-    color: #0000FF;
+.itemMenu:hover {
+  cursor: pointer;
+}
+
+.buttonContact {
+  font-size: 1.6em;
 }
 
 /* First Section with logo */
 
 .flexHead {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-    width: 10em;
-    height: auto;
+  width: 12em;
+  height: auto;
+}
+
+/* Références */
+
+.head-ref > h1 {
+  font-weight: normal;
+}
+
+.head-ref {
+  font-size: 1.4em;
+  padding-left: 8px;
+}
+
+.items-ref {
+  background-color: #edd3e5;
+  padding: 8px;
+  margin-top: 0.5em;
+}
+
+.items-ref h2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  border-bottom: 1px solid gray;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.items-ref p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.links-ref {
+  margin-top: 0;
+}
+
+.ref-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.ref-right {
+  font-weight: 300;
+  padding: 8px;
+}
+
+.pages-ref-flex {
+  display: flex;
+  margin-top: 1em;
+}
+
+.previous {
+  text-align: left;
+  flex: 0 0 33.3333333333%;
+}
+
+.pages {
+  text-align: center;
+  flex: 0 0 33.3333333333%;
+}
+
+.next {
+  text-align: right;
+  flex: 0 0 33.3333333333%;
+}
+
+/* Contact */
+
+.head-contact > h1 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.head-contact {
+  font-size: 1.3rem;
+  padding-left: 8px;
+}
+.head-ref > h1 {
+  font-weight: normal;
+}
+
+.contact-container {
+  margin: 0 8px;
+}
+
+.form-control {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid gray;
+  margin-bottom: 1em;
+  padding: 0.28rem 0;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+.envoyer {
+  border-radius: 0;
+  border: 1px solid gray;
+  float: right;
+}
+
+.envoyer:hover {
+  cursor: pointer;
 }
 
 /* Second Section */
 
 .pinkBox {
-    color: black;
-    background-color: #EDD3E5;
-    padding: 0.1em;
-    font-size: .9rem;
-    font-weight: 200;
+  color: black;
+  background-color: #edd3e5;
+  padding: 0.1em;
+  font-weight: 200;
 }
 
 .bigText {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 /*Services section*/
 
 .smallTitle {
-    background-color: #EDD3E5;
-    font-size: 1rem;
-    font-weight: 100;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    margin-bottom: -.8em;
-    width: 8em;
+  background-color: #edd3e5;
+  font-size: 1rem;
+  font-weight: 300;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-bottom: -0.8em;
+  width: 8em;
 }
 
 .whiteBox {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 /* Softwares section */
 
 .paragraphLogiciel {
-    margin-bottom: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 .flexLogiciels {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
 }
 
 .flexLogiciels ul {
-    padding-left: 0;
-    background-color: #EDD3E5;
+  margin-right: 5px;
+  padding-left: 0;
+  background-color: #edd3e5;
 }
 
 .flexLogiciels li {
-    list-style-type: none;
-    font-weight: 200;
+  list-style-type: none;
+  font-weight: 200;
 }
 
 .lastItems {
-    padding-right: 1.2em;
+  padding-right: 1.4em;
 }
 
 footer {
-    margin-top: 3em;
-    font-weight: 200;
+  margin-top: 3em;
+  font-weight: 200;
+  margin-bottom: 1.8em;
+}
+
+footer > p {
+  margin-bottom: 0.1em;
 }
 
 .clic {
-    font-style: italic;
-    font-weight: 100;
+  font-style: italic;
+  font-weight: 100;
 }
 
 /* Contact */
 .flexButton {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .buttonContact {
-    margin-top: 0.3em;
-    border-top: 1px solid #0000FF;
-    border-left: 1px solid #0000FF;
-    border-right: 1px solid #0000FF;
-    border-radius: 3px;
-    border-bottom: none;
-    margin-bottom: 0;
-    color: #0000FF;
-    padding-right: 3em;
-    background-color: white;
-    text-decoration: none;
-    text-align: right;
+  position: fixed;
+  bottom: -2px;
+  right: 20px;
+  margin-top: 0.3em;
+  border-top: 2px solid #0000ff;
+  border-left: 2px solid #0000ff;
+  border-right: 2px solid #0000ff;
+  border-radius: 3px;
+  border-bottom: none;
+  margin-bottom: 0;
+  color: #0000ff;
+  padding-left: 0.1em;
+  background-color: white;
+  text-decoration: none;
+  text-align: right;
 }
 
 .buttonContact:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+/* Blog */
+
+.head-blog > h1 {
+  font-weight: normal;
+}
+
+.head-blog {
+  font-size: 1.2em;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+  .contact-container {
+    width: 46%;
+  }
+
+  .legals {
+      display: flex;
+    }
+
+   .legals-left {
+       width: 45%;
+       margin-right: 2%;
+    }
+
+    .legals-right {
+	width: 45%;
+    }
+
+  .flexNav {
+    font-size: 1.3em;
+  }
+
+  .logo {
+    width: 14em;
+  }
+
+  .flexHead {
+    align-items: end;
+  }
+
+  .flexHead > p {
+    font-size: 2.1em;
+  }
+
+  .firstFlexBox {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .firstBox {
+    width: 68%;
+    font-size: 1em;
+    padding-right: 0.5em;
+  }
+
+  .bigText {
+    font-size: 1.7em;
+  }
+
+  .secondFlexBox {
+    display: flex;
+    width: 67%;
+  }
+
+  .infogerance {
+    flex-basis: 50%;
+  }
+
+  .sites {
+    flex-basis: 50%;
+    margin-right: 0.3em;
+  }
+
+  .thirdFlexBox {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .thirdBox {
+    width: 68%;
+    font-size: 1em;
+    padding-right: 0.5em;
+  }
+
+  .logiciels {
+    width: 47%;
+  }
+
+  .buttonContact {
+    font-size: 1.7em;
+  }
+  .ref-flex {
+    font-size: 1.3rem;
+  }
+
+  footer {
+    margin-bottom: 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .itemMenu {
+    font-size: 1em;
+  }
+
+  .ref-flex {
+    flex-direction: row;
+  }
+
+  .head-ref {
+    padding-left: 0;
+  }
+
+  .ref-left {
+    width: 59%;
+  }
+
+  .ref-right {
+    width: 35%;
+    padding: 0 2em;
+  }
+
+  .flexNav {
+    font-size: 2.4em;
+  }
+
+  .logo {
+    width: 27em;
+  }
+
+  .flexHead {
+    margin-top: -4em;
+    align-items: end;
+  }
+
+  .flexHead > p {
+    font-size: 3.2em;
+    line-height: 1em;
+    margin-top: 2em;
+  }
+
+  .firstFlexBox {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .firstBox {
+    width: 68%;
+    font-size: 1.7rem;
+    padding-right: 0.5em;
+  }
+
+  .bigText {
+    font-size: 2.5rem;
+  }
+
+  .secondFlexBox {
+    display: flex;
+    width: 60%;
+    font-size: 1.7rem;
+  }
+
+  .smallTitle {
+    font-size: 1.7rem;
+  }
+
+  .sites {
+    margin-right: 0.6em;
+  }
+
+  .thirdBox {
+    width: 68%;
+    font-size: 1.7rem;
+    padding-right: 0.5em;
+  }
+
+  .logiciels {
+    font-size: 1.7rem;
+  }
+
+  .flexLogiciels {
+    width: 91%;
+  }
+
+  .buttonContact {
+    padding-right: 6em;
+  }
+
+  footer {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .secondFlexBox {
+    width: 70%;
+  }
+
+  .sites {
+    margin-right: 0;
+    flex-basis: 35%;
+  }
+
+  .infogerance {
+    flex-basis: 65%;
+    margin-left: 0.3em;
+  }
+
+  .flexLogiciels {
+    width: 92%;
+  }
+
+  .buttonContact {
+    right: 10%;
+  }
 }
