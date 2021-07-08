@@ -105,7 +105,7 @@ em {
 
 .items-ref {
   background-color: #edd3e5;
-  padding: 8px;
+  padding: 0.3em;
   margin-top: 0.5em;
 }
 
@@ -205,7 +205,7 @@ label {
 .pinkBox {
   color: black;
   background-color: #edd3e5;
-  padding: 0.1em;
+  padding: 0.3em;
   font-weight: 200;
 }
 
@@ -220,6 +220,7 @@ label {
   font-size: 1rem;
   font-weight: 300;
   padding-top: 0.2em;
+  padding-left: 0.3em;
   padding-bottom: 0.2em;
   margin-bottom: -0.8em;
   width: 8em;
@@ -240,8 +241,8 @@ label {
 }
 
 .flexLogiciels ul {
-  margin-right: 5px;
-  padding-left: 0;
+  margin-right: 0.2em;
+  padding-left: 0.3em;
   background-color: #edd3e5;
 }
 
@@ -481,7 +482,7 @@ footer > p {
   }
 
   .flexLogiciels {
-    width: 91%;
+    width: 92%;
   }
 
   .buttonContact {
