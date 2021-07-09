@@ -316,17 +316,17 @@ footer > p {
   }
 
   .legals {
-      display: flex;
-    }
+    display: flex;
+  }
 
-   .legals-left {
-       width: 45%;
-       margin-right: 2%;
-    }
+  .legals-left {
+    width: 45%;
+    margin-right: 2%;
+  }
 
-    .legals-right {
-	width: 45%;
-    }
+  .legals-right {
+    width: 45%;
+  }
 
   .flexNav {
     font-size: 1.3em;
@@ -487,6 +487,15 @@ footer > p {
 
   .buttonContact {
     padding-right: 6em;
+  }
+
+  .legals {
+    font-size: 1.7em;
+  }
+
+  .contact-container,
+  .head-contact {
+    font-size: 1.7em;
   }
 
   footer {
